@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pepo’s Sauna — Баня на дровах, бассейн и шашлык в Кобулети</title>
+  <meta name="description" content="Pepo’s Sauna — частная баня на дровах, бассейн и шашлык в киви-саду в Кобулети, ул. Агмашенебели 738. Приватный отдых для компании. Онлайн-бронирование в WhatsApp и Telegram.">
+  <meta name="keywords" content="баня Кобулети, сауна Кобулети, баня на дровах, бассейн, шашлык, Pepo's Sauna, аренда бани Грузия, Агмашенебели 738">
+  <meta name="theme-color" content="#17110d">
+  <link rel="canonical" href="https://pepossauna.ge/">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:site_name" content="Pepo’s Sauna">
+  <meta property="og:title" content="Pepo’s Sauna — Баня · Бассейн · Шашлык в Кобулети">
+  <meta property="og:description" content="Частная баня на дровах, бассейн и шашлык в киви-саду. Кобулети, Агмашенебели 738. Бронирование онлайн.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ka_GE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pepo’s Sauna — Баня · Бассейн · Шашлык в Кобулети">
+  <meta name="twitter:description" content="Частная баня на дровах, бассейн и шашлык в киви-саду. Кобулети, Агмашенебели 738.">
+  <meta name="twitter:image" content="assets/img/hero.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/logo.jpg">
+
+  <!-- Fonts: Latin + Cyrillic (Playfair/Manrope) + Georgian (Noto) fallbacks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&family=Noto+Sans+Georgian:wght@400;500;600;700&family=Noto+Serif+Georgian:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css?v=5">
+
+  <!-- Schema.org: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Pepo’s Sauna",
+    "description": "Частная баня на дровах, бассейн и шашлык в киви-саду в Кобулети.",
+    "image": "https://pepossauna.ge/assets/img/hero.jpg",
+    "url": "https://pepossauna.ge/",
+    "telephone": "+995595076227",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Agmashenebeli st. 738",
+      "addressLocality": "Kobuleti",
+      "addressCountry": "GE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.8696418,
+      "longitude": 41.7796844
+    },
+    "hasMap": "https://maps.app.goo.gl/pz8RFuHUthCA5ZgZ9",
+    "openingHours": "Mo-Su 10:00-24:00",
+    "sameAs": [
+      "https://www.instagram.com/pepossauna",
+      "https://www.tiktok.com/@pepos.sauna"
+    ],
+    "amenityFeature": [
+      {"@type":"LocationFeatureSpecification","name":"Wood-fired sauna","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Swimming pool","value":true},
+      {"@type":"LocationFeatureSpecification","name":"BBQ","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Free parking","value":true}
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+<!-- ======================= PROMO BAR ======================= -->
+<div class="promo-bar" id="promoBar" hidden>
+  <div class="promo-bar__inner">
+    <span class="promo-bar__text" data-i18n="promo.text"></span>
+    <span class="promo-bar__timer" id="promoTimer" aria-hidden="true"></span>
+    <button class="promo-bar__close" id="promoClose" aria-label="Close">&times;</button>
+  </div>
+</div>
+
+<!-- ======================= HEADER ======================= -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="brand" aria-label="Pepo's Sauna">
+      <img src="assets/img/logo.jpg" alt="Pepo’s Sauna" class="brand__logo" width="44" height="44">
+      <span class="brand__name">Pepo’s <span>Sauna</span></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#services" data-i18n="nav.services"></a>
+      <a href="#booking" data-i18n="nav.booking"></a>
+      <a href="#gallery" data-i18n="nav.gallery"></a>
+      <a href="#reviews" data-i18n="nav.reviews"></a>
+      <a href="#faq" data-i18n="nav.faq"></a>
+      <a href="#contacts" data-i18n="nav.contacts"></a>
+    </nav>
+
+    <div class="header__actions">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" class="lang__btn" data-lang="ru">RU</button>
+        <button type="button" class="lang__btn" data-lang="en">EN</button>
+        <button type="button" class="lang__btn" data-lang="ge">GE</button>
+      </div>
+      <a href="#booking" class="btn btn--primary btn--sm header__book" data-i18n="nav.book"></a>
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ======================= HERO ======================= -->
+  <section class="hero">
+    <div class="hero__bg" style="background-image:url('assets/img/hero.jpg')"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <p class="hero__badge"><span class="dot"></span><span data-i18n="hero.badge"></span></p>
+      <h1 class="hero__title" data-i18n="hero.title"></h1>
+      <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
+      <div class="hero__cta">
+        <a href="#booking" class="btn btn--primary btn--lg" data-i18n="hero.ctaBook"></a>
+        <a href="#" class="btn btn--whatsapp btn--lg" data-wa data-i18n="hero.ctaWhatsapp"></a>
+      </div>
+      <ul class="hero__features">
+        <li><svg class="ic"><use href="#i-flame"/></svg><span data-i18n="hero.f1"></span></li>
+        <li><svg class="ic"><use href="#i-wave"/></svg><span data-i18n="hero.f2"></span></li>
+        <li><svg class="ic"><use href="#i-grill"/></svg><span data-i18n="hero.f3"></span></li>
+        <li><svg class="ic"><use href="#i-leaf"/></svg><span data-i18n="hero.f4"></span></li>
+      </ul>
+    </div>
+    <a href="#stats" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- ======================= STATS ======================= -->
+  <section class="stats" id="stats">
+    <div class="container stats__grid">
+      <div class="stat"><span class="stat__v" data-i18n="stats.s1v"></span><span class="stat__l" data-i18n="stats.s1"></span></div>
+      <div class="stat"><span class="stat__v" data-i18n="stats.s2v"></span><span class="stat__l" data-i18n="stats.s2"></span></div>
+      <div class="stat"><span class="stat__v" data-i18n="stats.s3v"></span><span class="stat__l" data-i18n="stats.s3"></span></div>
+      <div class="stat"><span class="stat__v" data-i18n="stats.s4v"></span><span class="stat__l" data-i18n="stats.s4"></span></div>
+    </div>
+  </section>
+
+  <!-- ======================= ABOUT ======================= -->
+  <section class="section about" id="about">
+    <div class="container about__grid">
+      <div class="about__media reveal">
+        <img src="assets/img/atmosphere.jpg" alt="Атмосфера бани на дровах Pepo's Sauna" loading="lazy">
+        <img src="assets/img/sauna-barrel.jpg" alt="Интерьер бани-бочки" loading="lazy" class="about__media-2">
+      </div>
+      <div class="about__text reveal">
+        <p class="kicker" data-i18n="about.kicker"></p>
+        <h2 class="h2" data-i18n="about.title"></h2>
+        <p class="lead" data-i18n="about.text"></p>
+        <ul class="checklist">
+          <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="about.p1"></span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="about.p2"></span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="about.p3"></span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="about.p4"></span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= WHY / ADVANTAGES ======================= -->
+  <section class="section why">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="kicker" data-i18n="why.kicker"></p>
+        <h2 class="h2" data-i18n="why.title"></h2>
+      </div>
+      <div class="why__grid">
+        <article class="feature reveal"><span class="feature__ic"><svg class="ic"><use href="#i-flame"/></svg></span><h3 data-i18n="why.i1t"></h3><p data-i18n="why.i1d"></p></article>
+        <article class="feature reveal"><span class="feature__ic"><svg class="ic"><use href="#i-leaf"/></svg></span><h3 data-i18n="why.i2t"></h3><p data-i18n="why.i2d"></p></article>
+        <article class="feature reveal"><span class="feature__ic"><svg class="ic"><use href="#i-lock"/></svg></span><h3 data-i18n="why.i3t"></h3><p data-i18n="why.i3d"></p></article>
+        <article class="feature reveal"><span class="feature__ic"><svg class="ic"><use href="#i-wave"/></svg></span><h3 data-i18n="why.i4t"></h3><p data-i18n="why.i4d"></p></article>
+        <article class="feature reveal"><span class="feature__ic"><svg class="ic"><use href="#i-grill"/></svg></span><h3 data-i18n="why.i5t"></h3><p data-i18n="why.i5d"></p></article>
+        <article class="feature reveal"><span class="feature__ic"><svg class="ic"><use href="#i-cup"/></svg></span><h3 data-i18n="why.i6t"></h3><p data-i18n="why.i6d"></p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= SERVICES ======================= -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="kicker" data-i18n="services.kicker"></p>
+        <h2 class="h2" data-i18n="services.title"></h2>
+        <p class="section__sub" data-i18n="services.subtitle"></p>
+      </div>
+
+      <div class="services__grid">
+        <!-- Sauna -->
+        <article class="card reveal">
+          <div class="card__media"><img src="assets/img/sauna.jpg" alt="Баня на дровах — парная" loading="lazy"></div>
+          <div class="card__body">
+            <h3 class="card__title" data-i18n="services.sauna.name"></h3>
+            <p class="card__price"><span class="card__price-val" data-price-object="sauna"></span><span class="card__price-unit" data-unit-object="sauna"></span></p>
+            <p class="card__guests"><svg class="ic"><use href="#i-users"/></svg><span data-i18n="services.upTo"></span> <span data-max-object="sauna"></span> <span data-i18n="services.guests"></span></p>
+            <p class="card__desc" data-i18n="services.sauna.desc"></p>
+            <p class="card__inc-title" data-i18n="services.included"></p>
+            <ul class="card__inc">
+              <li data-i18n="services.sauna.inc1"></li><li data-i18n="services.sauna.inc2"></li>
+              <li data-i18n="services.sauna.inc3"></li><li data-i18n="services.sauna.inc4"></li>
+            </ul>
+            <a href="#booking" class="btn btn--primary btn--block" data-book-object="sauna" data-i18n="services.book"></a>
+          </div>
+        </article>
+
+        <!-- Pool -->
+        <article class="card reveal">
+          <div class="card__media"><img src="assets/img/features.jpg" alt="Бассейн в киви-саду" loading="lazy"></div>
+          <div class="card__body">
+            <h3 class="card__title" data-i18n="services.pool.name"></h3>
+            <p class="card__price card__price--inc"><span class="card__inc-badge" data-i18n="services.includedBadge"></span><span class="card__price-note" data-i18n="services.poolNote"></span></p>
+            <p class="card__guests"><svg class="ic"><use href="#i-wave"/></svg><span data-i18n="hero.f2"></span></p>
+            <p class="card__desc" data-i18n="services.pool.desc"></p>
+            <p class="card__inc-title" data-i18n="services.included"></p>
+            <ul class="card__inc">
+              <li data-i18n="services.pool.inc1"></li><li data-i18n="services.pool.inc2"></li>
+              <li data-i18n="services.pool.inc3"></li><li data-i18n="services.pool.inc4"></li>
+            </ul>
+            <a href="#booking" class="btn btn--primary btn--block" data-book-object="sauna" data-i18n="services.book"></a>
+          </div>
+        </article>
+
+        <!-- Cottage / whole venue -->
+        <article class="card card--featured reveal">
+          <div class="card__ribbon">★</div>
+          <div class="card__media"><img src="assets/img/hero.jpg" alt="Весь комплекс: баня, бассейн, шашлык" loading="lazy"></div>
+          <div class="card__body">
+            <h3 class="card__title" data-i18n="services.cottage.name"></h3>
+            <p class="card__price"><span class="card__price-val" data-price-object="cottage"></span><span class="card__price-unit" data-unit-object="cottage"></span></p>
+            <p class="card__guests"><svg class="ic"><use href="#i-users"/></svg><span data-i18n="services.upTo"></span> <span data-max-object="cottage"></span> <span data-i18n="services.guests"></span></p>
+            <p class="card__desc" data-i18n="services.cottage.desc"></p>
+            <p class="card__inc-title" data-i18n="services.included"></p>
+            <ul class="card__inc">
+              <li data-i18n="services.cottage.inc1"></li><li data-i18n="services.cottage.inc2"></li>
+              <li data-i18n="services.cottage.inc3"></li><li data-i18n="services.cottage.inc4"></li>
+            </ul>
+            <a href="#booking" class="btn btn--primary btn--block" data-book-object="cottage" data-i18n="services.book"></a>
+          </div>
+        </article>
+      </div>
+      <p class="services__note" data-i18n="services.extrasNote"></p>
+    </div>
+  </section>
+
+  <!-- ======================= BOOKING ======================= -->
+  <section class="section booking" id="booking">
+    <div class="container booking__grid">
+      <div class="booking__intro reveal">
+        <p class="kicker" data-i18n="booking.kicker"></p>
+        <h2 class="h2" data-i18n="booking.title"></h2>
+        <p class="lead" data-i18n="booking.subtitle"></p>
+        <img src="assets/img/poster.jpg" alt="Pepo's Sauna Кобулети" class="booking__poster" loading="lazy">
+      </div>
+
+      <form class="booking__form reveal" id="bookingForm" novalidate>
+        <div class="field">
+          <label for="bk-object" data-i18n="booking.object"></label>
+          <select id="bk-object" name="object"></select>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="bk-date" data-i18n="booking.date"></label>
+            <input type="date" id="bk-date" name="date">
+          </div>
+          <div class="field">
+            <label for="bk-time" data-i18n="booking.time"></label>
+            <input type="time" id="bk-time" name="time" value="18:00" step="1800">
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="bk-hours" data-i18n="booking.hours"></label>
+            <div class="stepper" data-stepper="hours">
+              <button type="button" class="stepper__btn" data-dir="-1" aria-label="−">−</button>
+              <input type="number" id="bk-hours" name="hours" value="2" min="2" max="12" readonly>
+              <button type="button" class="stepper__btn" data-dir="1" aria-label="+">+</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="bk-guests" data-i18n="booking.guests"></label>
+            <div class="stepper" data-stepper="guests">
+              <button type="button" class="stepper__btn" data-dir="-1" aria-label="−">−</button>
+              <input type="number" id="bk-guests" name="guests" value="4" min="1" max="12" readonly>
+              <button type="button" class="stepper__btn" data-dir="1" aria-label="+">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <span class="field__label" data-i18n="booking.extrasTitle"></span>
+          <div class="extras" id="bk-extras"></div>
+        </div>
+
+        <div class="field">
+          <label for="bk-name" data-i18n="booking.yourName"></label>
+          <input type="text" id="bk-name" name="name" data-i18n-ph="booking.namePlaceholder" autocomplete="name">
+        </div>
+
+        <div class="booking__total">
+          <span class="booking__total-label" data-i18n="booking.total"></span>
+          <span class="booking__total-val"><span id="bk-total">0</span> <span data-currency></span></span>
+        </div>
+        <p class="booking__hint" data-i18n="booking.totalHint"></p>
+
+        <div class="booking__submit">
+          <button type="button" class="btn btn--whatsapp btn--block" data-send="wa">
+            <svg class="ic"><use href="#i-whatsapp"/></svg><span data-i18n="booking.submitWa"></span>
+          </button>
+          <div class="booking__submit-row">
+            <button type="button" class="btn btn--telegram" data-send="tg">
+              <svg class="ic"><use href="#i-telegram"/></svg><span data-i18n="booking.submitTg"></span>
+            </button>
+            <button type="button" class="btn btn--ghost" data-send="call">
+              <svg class="ic"><use href="#i-phone"/></svg><span data-i18n="booking.submitCall"></span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ======================= STEPS ======================= -->
+  <section class="section steps">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="kicker" data-i18n="steps.kicker"></p>
+        <h2 class="h2" data-i18n="steps.title"></h2>
+      </div>
+      <div class="steps__grid">
+        <div class="step reveal"><span class="step__num">1</span><h3 data-i18n="steps.s1t"></h3><p data-i18n="steps.s1d"></p></div>
+        <div class="step reveal"><span class="step__num">2</span><h3 data-i18n="steps.s2t"></h3><p data-i18n="steps.s2d"></p></div>
+        <div class="step reveal"><span class="step__num">3</span><h3 data-i18n="steps.s3t"></h3><p data-i18n="steps.s3d"></p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= GALLERY ======================= -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="kicker" data-i18n="gallery.kicker"></p>
+        <h2 class="h2" data-i18n="gallery.title"></h2>
+      </div>
+      <div class="gallery__grid" id="galleryGrid">
+        <button class="gallery__item gallery__item--big" data-src="assets/img/hero.jpg"><img src="assets/img/hero.jpg" alt="Вечер в Pepo's Sauna: баня, шашлык, киви-сад" loading="lazy"></button>
+        <button class="gallery__item" data-src="assets/img/sauna.jpg"><img src="assets/img/sauna.jpg" alt="Парная бани на дровах" loading="lazy"></button>
+        <button class="gallery__item" data-src="assets/img/features.jpg"><img src="assets/img/features.jpg" alt="Бассейн, гриль и коттедж" loading="lazy"></button>
+        <button class="gallery__item" data-src="assets/img/sauna-barrel.jpg"><img src="assets/img/sauna-barrel.jpg" alt="Баня-бочка изнутри" loading="lazy"></button>
+        <button class="gallery__item" data-src="assets/img/atmosphere.jpg"><img src="assets/img/atmosphere.jpg" alt="Атмосфера парной" loading="lazy"></button>
+        <button class="gallery__item" data-src="assets/img/poster.jpg"><img src="assets/img/poster.jpg" alt="Постер Pepo's Sauna" loading="lazy"></button>
+        <button class="gallery__item" data-src="assets/img/promo-tigers.jpg"><img src="assets/img/promo-tigers.jpg" alt="Pepo's Sauna — готовы тигры" loading="lazy"></button>
+      </div>
+      <a href="https://www.instagram.com/pepossauna" target="_blank" rel="noopener" class="btn btn--outline gallery__more"><svg class="ic"><use href="#i-instagram"/></svg><span data-i18n="gallery.more"></span></a>
+    </div>
+  </section>
+
+  <!-- ======================= REVIEWS ======================= -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="kicker" data-i18n="reviews.kicker"></p>
+        <h2 class="h2" data-i18n="reviews.title"></h2>
+      </div>
+      <div class="reviews__grid">
+        <figure class="review reveal">
+          <div class="review__stars">★★★★★</div>
+          <blockquote data-i18n="reviews.r1"></blockquote>
+          <figcaption><strong data-i18n="reviews.r1n"></strong><span data-i18n="reviews.r1r"></span></figcaption>
+        </figure>
+        <figure class="review reveal">
+          <div class="review__stars">★★★★★</div>
+          <blockquote data-i18n="reviews.r2"></blockquote>
+          <figcaption><strong data-i18n="reviews.r2n"></strong><span data-i18n="reviews.r2r"></span></figcaption>
+        </figure>
+        <figure class="review reveal">
+          <div class="review__stars">★★★★★</div>
+          <blockquote data-i18n="reviews.r3"></blockquote>
+          <figcaption><strong data-i18n="reviews.r3n"></strong><span data-i18n="reviews.r3r"></span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= GIFT ======================= -->
+  <section class="section gift">
+    <div class="container gift__inner reveal">
+      <div class="gift__text">
+        <p class="kicker" data-i18n="gift.kicker"></p>
+        <h2 class="h2" data-i18n="gift.title"></h2>
+        <p class="lead" data-i18n="gift.text"></p>
+      </div>
+      <a href="#" class="btn btn--primary btn--lg" data-wa data-i18n="gift.cta"></a>
+    </div>
+  </section>
+
+  <!-- ======================= FAQ ======================= -->
+  <section class="section faq" id="faq">
+    <div class="container faq__inner">
+      <div class="section__head reveal">
+        <p class="kicker" data-i18n="faq.kicker"></p>
+        <h2 class="h2" data-i18n="faq.title"></h2>
+      </div>
+      <div class="faq__list">
+        <details class="faq__item reveal"><summary data-i18n="faq.q1"></summary><div class="faq__a"><p data-i18n="faq.a1"></p></div></details>
+        <details class="faq__item reveal"><summary data-i18n="faq.q2"></summary><div class="faq__a"><p data-i18n="faq.a2"></p></div></details>
+        <details class="faq__item reveal"><summary data-i18n="faq.q3"></summary><div class="faq__a"><p data-i18n="faq.a3"></p></div></details>
+        <details class="faq__item reveal"><summary data-i18n="faq.q4"></summary><div class="faq__a"><p data-i18n="faq.a4"></p></div></details>
+        <details class="faq__item reveal"><summary data-i18n="faq.q5"></summary><div class="faq__a"><p data-i18n="faq.a5"></p></div></details>
+        <details class="faq__item reveal"><summary data-i18n="faq.q6"></summary><div class="faq__a"><p data-i18n="faq.a6"></p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= CONTACTS ======================= -->
+  <section class="section contacts" id="contacts">
+    <div class="container contacts__grid">
+      <div class="contacts__info reveal">
+        <p class="kicker" data-i18n="contacts.kicker"></p>
+        <h2 class="h2" data-i18n="contacts.title"></h2>
+
+        <ul class="contacts__list">
+          <li>
+            <span class="contacts__ic"><svg class="ic"><use href="#i-pin"/></svg></span>
+            <div><span class="contacts__label" data-i18n="contacts.addressLabel"></span><span class="contacts__value" data-address></span></div>
+          </li>
+          <li>
+            <span class="contacts__ic"><svg class="ic"><use href="#i-phone"/></svg></span>
+            <div><span class="contacts__label" data-i18n="contacts.phoneLabel"></span>
+              <a class="contacts__value" data-phone-primary href="#"></a>
+              <a class="contacts__value" data-phone-secondary href="#"></a>
+            </div>
+          </li>
+          <li>
+            <span class="contacts__ic"><svg class="ic"><use href="#i-clock"/></svg></span>
+            <div><span class="contacts__label" data-i18n="contacts.hoursLabel"></span><span class="contacts__value" data-hours></span></div>
+          </li>
+        </ul>
+
+        <div class="contacts__actions">
+          <a class="btn btn--primary" data-route target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="contacts.route"></span></a>
+          <a class="btn btn--whatsapp" data-wa><svg class="ic"><use href="#i-whatsapp"/></svg><span data-i18n="contacts.write"></span></a>
+        </div>
+
+        <div class="contacts__social">
+          <span data-i18n="contacts.follow"></span>
+          <a data-social-ig target="_blank" rel="noopener" aria-label="Instagram"><svg class="ic"><use href="#i-instagram"/></svg></a>
+          <a data-social-tt target="_blank" rel="noopener" aria-label="TikTok"><svg class="ic"><use href="#i-tiktok"/></svg></a>
+        </div>
+      </div>
+
+      <div class="contacts__map reveal">
+        <iframe data-map title="Pepo's Sauna на карте" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <img src="assets/img/logo.jpg" alt="Pepo’s Sauna" width="48" height="48">
+      <div>
+        <strong>Pepo’s Sauna</strong>
+        <span data-i18n="footer.tagline"></span>
+      </div>
+    </div>
+    <div class="footer__meta">
+      <span data-address></span>
+      <a data-phone-primary href="#"></a>
+    </div>
+    <div class="footer__social">
+      <a data-social-ig target="_blank" rel="noopener" aria-label="Instagram"><svg class="ic"><use href="#i-instagram"/></svg></a>
+      <a data-social-tt target="_blank" rel="noopener" aria-label="TikTok"><svg class="ic"><use href="#i-tiktok"/></svg></a>
+    </div>
+  </div>
+  <div class="footer__bottom container">
+    <span>© <span id="year"></span> Pepo’s Sauna. <span data-i18n="footer.rights"></span></span>
+    <span data-i18n="footer.made"></span>
+  </div>
+</footer>
+
+<!-- ======================= FLOATING BUTTONS ======================= -->
+<div class="fab">
+  <a class="fab__btn fab__btn--wa" data-wa aria-label="WhatsApp"><svg class="ic"><use href="#i-whatsapp"/></svg></a>
+  <a class="fab__btn fab__btn--tg" data-tg aria-label="Telegram"><svg class="ic"><use href="#i-telegram"/></svg></a>
+  <a class="fab__btn fab__btn--call" data-call aria-label="Call"><svg class="ic"><use href="#i-phone"/></svg></a>
+  <a href="#booking" class="fab__btn fab__btn--book" data-i18n="float.book"></a>
+</div>
+<button class="to-top" id="toTop" aria-label="Up"><svg class="ic"><use href="#i-up"/></svg></button>
+
+<!-- ======================= LIGHTBOX ======================= -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+  <button class="lightbox__close" id="lbClose" aria-label="Close">&times;</button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Previous">‹</button>
+  <img class="lightbox__img" id="lbImg" alt="">
+  <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Next">›</button>
+</div>
+
+<!-- ======================= SVG ICON SPRITE ======================= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2s4 4 4 8a4 4 0 0 1-8 0c0-1 .5-2 .5-2S8 10 8 12a4 4 0 0 0 8 4c3-1.5 3-5 3-6 0-5-7-8-7-8"/><path d="M12 22a6 6 0 0 0 6-6c0-2-1-3-1-3"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8c2 0 2 2 4 2s2-2 4-2 2 2 4 2 2-2 4-2 2 2 4 2"/><path d="M2 14c2 0 2 2 4 2s2-2 4-2 2 2 4 2 2-2 4-2 2 2 4 2"/><path d="M2 20c2 0 2 1.5 4 1.5"/></symbol>
+    <symbol id="i-grill" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16l-1.5 6.5a7 7 0 0 1-13 0L4 7Z"/><path d="M6 17l-1.5 4M18 17l1.5 4"/><path d="M9 3s-1 1 0 2M12 3s-1 1 0 2M15 3s-1 1 0 2"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13c0-6 7-9 15-9 0 8-3 15-8 16Z"/><path d="M4 20c3-4 6-6 10-7"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+    <symbol id="i-cup" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Z"/><path d="M16 9h2a2 2 0 0 1 0 6h-2"/><path d="M7 2s-.8 1 0 2M11 2s-.8 1 0 2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16 5a3 3 0 0 1 0 6M21 20a6 6 0 0 0-5-5.9"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6 7-11a7 7 0 0 0-14 0c0 5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.3 4.8 4.9-1.3A9.9 9.9 0 1 0 12.04 2Zm0 1.8a8.1 8.1 0 0 1 6.9 12.4l.3.5-.8 2.9-2.9-.8-.5-.3a8.1 8.1 0 1 1-3-14.8Zm-2.6 4c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 5 4.3 2.5 1 3 .8 3.5.7.6 0 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4l-.9-.4c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.6.1-.3-.1-1.2-.5-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.5l.4-.5c.2-.2.2-.3.3-.5.1-.2.1-.4 0-.5l-.9-2.2c-.2-.5-.4-.4-.6-.4h-.5Z"/></symbol>
+    <symbol id="i-telegram" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3 18.7 19c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13 1.4 11.5c-1-.3-1-1 .2-1.5L20.6 2.7c.9-.3 1.6.2 1.3 1.6Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24" fill="currentColor"><path d="M16 3c.3 2.3 1.7 3.9 4 4.2V10c-1.5 0-2.9-.5-4-1.3v6.1a5.8 5.8 0 1 1-5.8-5.8c.3 0 .6 0 .9.1v3a2.9 2.9 0 1 0 2 2.7V3H16Z"/></symbol>
+  </defs>
+</svg>
+
+<script src="js/config.js?v=8"></script>
+<script src="js/i18n.js?v=3"></script>
+<script src="js/main.js?v=2"></script>
+</body>
+</html>
