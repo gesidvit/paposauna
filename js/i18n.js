@@ -115,7 +115,7 @@ window.PEPOS_I18N = {
       submitTg: "Отправить в Telegram",
       submitCall: "Позвонить",
       objects: { sauna: "Баня на дровах", pool: "Бассейн", cottage: "Коттедж (вся территория)" },
-      extras: { venik: "Эвкалиптовый веник", towel: "Доп. полотенце", kilt: "Доп. килт", bbq: "Мангальная зона (бесплатно)" },
+      extras: { venik: "Эвкалиптовый веник", towel: "Доп. полотенце", kilt: "Доп. килт", bbq: "Мангальная зона" },
       msgIntro: "Здравствуйте! Хочу забронировать Pepo’s Sauna:",
       msgObject: "Объект", msgDate: "Дата", msgTime: "Время", msgHours: "Часов", msgNights: "Ночей",
       msgGuests: "Гостей", msgExtras: "Доп.услуги", msgTotal: "Примерная стоимость", msgName: "Имя"
@@ -226,7 +226,7 @@ window.PEPOS_I18N = {
       total: "Total", totalHint: "Estimated price. The admin will confirm the exact amount.",
       submitWa: "Send on WhatsApp", submitTg: "Send on Telegram", submitCall: "Call us",
       objects: { sauna: "Wood-fired sauna", pool: "Swimming pool", cottage: "Whole venue" },
-      extras: { venik: "Eucalyptus venik", towel: "Extra towel", kilt: "Extra kilt", bbq: "BBQ area (free)" },
+      extras: { venik: "Eucalyptus venik", towel: "Extra towel", kilt: "Extra kilt", bbq: "BBQ area" },
       msgIntro: "Hello! I’d like to book Pepo’s Sauna:",
       msgObject: "Venue", msgDate: "Date", msgTime: "Time", msgHours: "Hours", msgNights: "Nights", msgGuests: "Guests", msgExtras: "Extras", msgTotal: "Estimated price", msgName: "Name"
     },
@@ -315,7 +315,7 @@ window.PEPOS_I18N = {
       total: "ჯამი", totalHint: "სავარაუდო ფასი. ზუსტ თანხას დაგიდასტურებთ ადმინისტრატორი.",
       submitWa: "გაგზავნა WhatsApp-ზე", submitTg: "გაგზავნა Telegram-ზე", submitCall: "დარეკვა",
       objects: { sauna: "შეშის საუნა", pool: "აუზი", cottage: "მთელი ტერიტორია" },
-      extras: { venik: "ევკალიპტის ცოცხი", towel: "დამატებითი პირსახოცი", kilt: "დამატებითი კილტი", bbq: "მანგალის ზონა (უფასო)" },
+      extras: { venik: "ევკალიპტის ცოცხი", towel: "დამატებითი პირსახოცი", kilt: "დამატებითი კილტი", bbq: "მანგალის ზონა" },
       msgIntro: "გამარჯობა! მინდა დავჯავშნო Pepo’s Sauna:",
       msgObject: "ობიექტი", msgDate: "თარიღი", msgTime: "დრო", msgHours: "საათი", msgNights: "ღამე", msgGuests: "სტუმარი", msgExtras: "დამატებით", msgTotal: "სავარაუდო ფასი", msgName: "სახელი"
     },
