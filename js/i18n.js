@@ -40,7 +40,7 @@ window.PEPOS_I18N = {
     about: {
       kicker: "О нас",
       title: "Настоящая баня на дровах в сердце Кобулети",
-      text: "Pepo’s Sauna — это приватный банный комплекс на территории киви-сада на ул. Агмашенебели 738. Две русские бани на дровах, бассейн, мангальная зона и уютные беседки. Мы встретим вас, поможем с паром и расскажем всё о настоящей баньке. Идеально для семьи, друзей и праздников.",
+      text: "Pepo’s Sauna — это приватный банный комплекс на территории киви-сада на ул. Агмашенебели 738. Русская баня на дровах, бассейн, мангальная зона и уютные беседки. Мы встретим вас, поможем с паром и расскажем всё о настоящей баньке. Идеально для семьи, друзей и праздников.",
       p1: "Дрова, а не электричество — живой жар и аромат",
       p2: "Только для вашей компании — никаких чужих людей",
       p3: "Зелёный киви-сад, беседки и шезлонги",
@@ -189,7 +189,7 @@ window.PEPOS_I18N = {
     about: {
       kicker: "About us",
       title: "A real wood-fired sauna in the heart of Kobuleti",
-      text: "Pepo’s Sauna is a private sauna retreat set in a kiwi garden at Agmashenebeli st. 738. Two Russian wood-fired saunas, a pool, a BBQ area and cosy gazebos. We’ll greet you, help with the steam and share everything about a true banya. Perfect for family, friends and celebrations.",
+      text: "Pepo’s Sauna is a private sauna retreat set in a kiwi garden at Agmashenebeli st. 738. A Russian wood-fired sauna, a pool, a BBQ area and cosy gazebos. We’ll greet you, help with the steam and share everything about a true banya. Perfect for family, friends and celebrations.",
       p1: "Wood, not electricity — living heat and aroma",
       p2: "Only your group — no strangers around",
       p3: "Green kiwi garden, gazebos and loungers",
@@ -278,7 +278,7 @@ window.PEPOS_I18N = {
     about: {
       kicker: "ჩვენ შესახებ",
       title: "ნამდვილი შეშის საუნა ქობულეთის გულში",
-      text: "Pepo’s Sauna — პირადი საუნის კომპლექსია კივის ბაღში, აღმაშენებლის ქ. 738-ზე. ორი შეშის საუნა, აუზი, მანგალის ზონა და მყუდრო კარვები. დაგხვდებით, დაგეხმარებით ორთქლში და მოგიყვებით ყველაფერს ნამდვილ საუნაზე. იდეალურია ოჯახის, მეგობრების და დღესასწაულებისთვის.",
+      text: "Pepo’s Sauna — პირადი საუნის კომპლექსია კივის ბაღში, აღმაშენებლის ქ. 738-ზე. რუსული შეშის საუნა, აუზი, მანგალის ზონა და მყუდრო კარვები. დაგხვდებით, დაგეხმარებით ორთქლში და მოგიყვებით ყველაფერს ნამდვილ საუნაზე. იდეალურია ოჯახის, მეგობრების და დღესასწაულებისთვის.",
       p1: "შეშა და არა ელექტრო — ცოცხალი სითბო და არომატი",
       p2: "მხოლოდ თქვენი კომპანია — უცხო ხალხის გარეშე",
       p3: "მწვანე კივის ბაღი, კარვები და შეზლონგები",
