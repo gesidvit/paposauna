@@ -244,7 +244,19 @@ ul{ list-style:none; padding:0; }
 /* allow form fields to shrink inside grid/flex (prevents iOS horizontal overflow) */
 .booking__grid, .booking__grid > *, .booking__form, .field, .field-row, .field-row > *, .stepper,
 .booking__submit, .booking__submit-row, .booking__submit-row > *, .extras, .extras > *{ min-width:0; }
-.booking__form input, .booking__form select{ min-width:0; max-width:100%; }
+.booking__form input, .booking__form select{ min-width:0; max-width:100%; box-sizing:border-box; }
+/* iOS Safari: native date/time inputs ignore width and spill past the field —
+   appearance:none makes them respect the container width */
+.booking__form input[type="date"],
+.booking__form input[type="time"]{
+  -webkit-appearance:none; appearance:none;
+  width:100%; min-width:0; max-width:100%; box-sizing:border-box;
+  text-align:left;
+}
+.booking__form input[type="date"]::-webkit-date-and-time-value,
+.booking__form input[type="time"]::-webkit-date-and-time-value{ margin:0; text-align:left; }
+.booking__form input[type="date"]::-webkit-calendar-picker-indicator,
+.booking__form input[type="time"]::-webkit-calendar-picker-indicator{ margin-left:auto; }
 .field{ margin-bottom:1.1rem; }
 .field > label,.field__label{ display:block; font-weight:600; font-size:.9rem; margin-bottom:.45rem; color:var(--text); }
 .field-row{ display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
