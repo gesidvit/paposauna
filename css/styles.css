@@ -157,8 +157,10 @@ ul{ list-style:none; padding:0; }
 
 /* ---------- Hero ---------- */
 .hero{ position:relative; min-height:clamp(560px,92vh,900px); display:flex; align-items:center; overflow:hidden; }
-.hero__bg{ position:absolute; inset:0; background-size:cover; background-position:center; transform:scale(1.05); animation:heroZoom 18s ease-in-out infinite alternate; }
+.hero__bg{ position:absolute; inset:0; background-image:url('../assets/img/hero-main.jpg'); background-size:cover; background-position:center; transform:scale(1.05); animation:heroZoom 18s ease-in-out infinite alternate; }
 @keyframes heroZoom{ to{ transform:scale(1.14); } }
+/* мобильная (вертикальная) версия заглавного фото */
+@media (max-width:640px){ .hero__bg{ background-image:url('../assets/img/hero-main-mobile.jpg'); } }
 .hero__overlay{ position:absolute; inset:0;
   background:
     radial-gradient(90% 70% at 20% 30%, rgba(21,16,12,.35), transparent 60%),
