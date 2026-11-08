@@ -116,7 +116,8 @@
       var label = document.createElement("label");
       label.className = "extra";
       label.htmlFor = id;
-      var priceTxt = ex.price > 0 ? ("+" + ex.price + " " + cur) : "✓";
+      // мангальная зона (bbq) — бесплатна, показываем ✓; остальные — "+N GEL"
+      var priceTxt = ex.id === "bbq" ? "✓" : ("+" + ex.price + " " + cur);
       label.innerHTML =
         '<input type="checkbox" id="' + id + '" value="' + ex.id + '">' +
         '<span class="extra__name">' + t("booking.extras." + ex.id) + '</span>' +

@@ -63,9 +63,9 @@ window.PEPOS_CONFIG = {
 
     // Доп.услуги (чекбоксы с количеством). price — за 1 шт.
     extras: [
-      { id: "venik",  price: 5,  perGuest: false },  // эвкалиптовый веник
-      { id: "towel",  price: 5,  perGuest: false },  // доп. полотенце
-      { id: "kilt",   price: 5,  perGuest: false },  // доп. килт
+      { id: "venik",  price: 0,  perGuest: false },  // эвкалиптовый веник
+      { id: "towel",  price: 0,  perGuest: false },  // доп. полотенце
+      { id: "kilt",   price: 0,  perGuest: false },  // доп. килт
       { id: "bbq",    price: 0,  perGuest: false }   // мангальная зона (входит бесплатно)
     ]
   },
