@@ -226,15 +226,12 @@
     if (channel === "wa") {
       window.open(waLink(msg), "_blank", "noopener");
     } else if (channel === "tg") {
-      // Telegram не поддерживает ?text= для личного чата, поэтому открываем окно
-      // «Поделиться» с уже готовым текстом заявки (пользователь выбирает чат Pepo's Sauna).
-      // Текст также копируем в буфер — как запасной вариант.
-      var tgUser = String(CFG.contacts.telegram || "").replace(/^@/, "");
-      var site = (location.origin && location.origin.indexOf("http") === 0) ? location.origin : "https://t.me/" + tgUser;
+      // Telegram не поддерживает предзаполнение текста в чат — копируем в буфер и открываем чат
+      var done = function () { toast(state.lang === "en" ? "Request copied — paste it in the chat" : state.lang === "ge" ? "ტექსტი დაკოპირდა — ჩასვით ჩატში" : "Текст заявки скопирован — вставьте в чат"); };
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(msg).then(function(){}, function(){});
+        navigator.clipboard.writeText(msg).then(done, function(){});
       }
-      window.open("https://t.me/share/url?url=" + encodeURIComponent(site) + "&text=" + encodeURIComponent(msg), "_blank", "noopener");
+      window.open(tgLink(), "_blank", "noopener");
     } else if (channel === "call") {
       window.location.href = telHref(CFG.contacts.phonePrimary);
     }
