@@ -85,12 +85,18 @@ window.PEPOS_I18N = {
         inc4: "Отлично для жарких дней"
       },
       cottage: {
-        name: "Коттедж на ночь",
-        desc: "Вся территория на ночь для большой компании или праздника: баня, бассейн, шашлык.",
-        inc1: "Баня + бассейн + мангал",
-        inc2: "Беседка и зона для застолья",
-        inc3: "До 12 гостей",
-        inc4: "Отлично для дней рождения и событий"
+        name: "Аренда коттеджа",
+        beds: "до 5 спальных мест",
+        desc: "Коттедж для большой компании или праздника.",
+        inc1: "Кухня-гостиная",
+        inc2: "Две изолированные комнаты",
+        inc3: "Холодильник",
+        inc4: "Плита",
+        inc5: "Телевизор",
+        inc6: "Кондиционер",
+        inc7: "Веранда с большим столом и лавками",
+        inc8: "Мангал",
+        inc9: "Отлично для дней рождения и событий"
       },
       extrasNote: "Доп.услуги: эвкалиптовый веник, полотенца и килты — по 5 GEL."
     },
@@ -213,7 +219,7 @@ window.PEPOS_I18N = {
       upTo: "up to", guests: "guests", included: "Included:", book: "Book",
       sauna: { name: "Wood-fired sauna + pool", desc: "A Russian wood-fired banya “in the kiwi garden” with steam room, lounge, shower and pool.", inc1: "Swimming pool included", inc2: "Hats, kilts and towels", inc3: "Tea, lounge and shower", inc4: "BBQ area and gazebo" },
       pool: { name: "Swimming pool", desc: "A refreshing open-air pool in the kiwi garden with loungers — free with the sauna rental.", inc1: "Free with the sauna rental", inc2: "Loungers and chill zone by the water", inc3: "Perfect after the steam room", inc4: "Great on hot days" },
-      cottage: { name: "Cottage per night", desc: "The whole venue for the night for a big group or celebration: sauna, pool, BBQ.", inc1: "Sauna + pool + grill", inc2: "Gazebo and dining area", inc3: "Up to 12 guests", inc4: "Great for birthdays and events" },
+      cottage: { name: "Cottage rental", beds: "up to 5 sleeping places", desc: "A cottage for a big group or a celebration.", inc1: "Kitchen-living room", inc2: "Two separate rooms", inc3: "Fridge", inc4: "Stove", inc5: "TV", inc6: "Air conditioning", inc7: "Veranda with a large table and benches", inc8: "BBQ grill", inc9: "Great for birthdays and events" },
       extrasNote: "Extras: eucalyptus venik, towels and kilts — 5 GEL each."
     },
     booking: {
@@ -302,7 +308,7 @@ window.PEPOS_I18N = {
       upTo: "მდე", guests: "სტუმარი", included: "შედის:", book: "დაჯავშნა",
       sauna: { name: "შეშის საუნა + აუზი", desc: "რუსული შეშის აბანო „კივის ბაღში“ საორთქლით, დასასვენებელი ოთახით, საშხაპით და აუზით.", inc1: "აუზი შედის ფასში", inc2: "ქუდები, კილტები და პირსახოცები", inc3: "ჩაი, დასასვენებელი ოთახი, საშხაპე", inc4: "მანგალის ზონა და კარავი" },
       pool: { name: "აუზი", desc: "გამაგრილებელი ღია აუზი კივის ბაღში შეზლონგებით — უფასოდ საუნის ქირაობისას.", inc1: "უფასოდ საუნის ქირაობისას", inc2: "შეზლონგები და დასვენების ზონა წყალთან", inc3: "იდეალურია საორთქლის შემდეგ", inc4: "შესანიშნავი ცხელ დღეებში" },
-      cottage: { name: "კოტეჯი ღამით", desc: "მთელი ტერიტორია ღამით დიდი კომპანიისთვის: საუნა, აუზი, მწვადი.", inc1: "საუნა + აუზი + მანგალი", inc2: "კარავი და სუფრის ზონა", inc3: "12 სტუმრამდე", inc4: "შესანიშნავი დაბადების დღისთვის" },
+      cottage: { name: "კოტეჯის ქირა", beds: "5 საძინებელ ადგილამდე", desc: "კოტეჯი დიდი კომპანიისთვის ან დღესასწაულისთვის.", inc1: "სამზარეულო-მისაღები", inc2: "ორი იზოლირებული ოთახი", inc3: "მაცივარი", inc4: "ქურა", inc5: "ტელევიზორი", inc6: "კონდიციონერი", inc7: "ვერანდა დიდი მაგიდითა და სკამებით", inc8: "მანგალი", inc9: "შესანიშნავია დაბადების დღეებისა და ღონისძიებებისთვის" },
       extrasNote: "დამატებით: ევკალიპტის ცოცხი, პირსახოცები და კილტი — 5 GEL ცალი."
     },
     booking: {
