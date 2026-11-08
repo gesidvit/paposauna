@@ -49,7 +49,7 @@ window.PEPOS_CONFIG = {
         pricePerUnit: 50,       // баня на дровах + бассейн: 50 GEL/час
         minUnits: 2,
         baseGuests: 6,
-        maxGuests: 8
+        maxGuests: 6
       },
       {
         id: "cottage",

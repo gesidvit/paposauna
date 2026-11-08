@@ -70,7 +70,7 @@ window.PEPOS_I18N = {
       book: "Забронировать",
       sauna: {
         name: "Баня на дровах + бассейн",
-        desc: "Две русские бани «в соснах» с парной, комнатой отдыха и душевой. Бассейн — бесплатно.",
+        desc: "Русская баня на дровах «в киви саду» с парной, комнатой отдыха, душевой и бассейном.",
         inc1: "Бассейн включён в стоимость",
         inc2: "Шапочки, килты и полотенца",
         inc3: "Чай, комната отдыха, душевая",
@@ -211,7 +211,7 @@ window.PEPOS_I18N = {
       subtitle: "Sauna is priced per hour, the cottage per night. The pool is already included with the sauna.",
       perHour: "/ hour", perNight: "/ night", includedBadge: "Included", poolNote: "with the sauna",
       upTo: "up to", guests: "guests", included: "Included:", book: "Book",
-      sauna: { name: "Wood-fired sauna + pool", desc: "Two Russian “in the pines” saunas with steam room, lounge and shower. The pool is free.", inc1: "Swimming pool included", inc2: "Hats, kilts and towels", inc3: "Tea, lounge and shower", inc4: "BBQ area and gazebo" },
+      sauna: { name: "Wood-fired sauna + pool", desc: "A Russian wood-fired banya “in the kiwi garden” with steam room, lounge, shower and pool.", inc1: "Swimming pool included", inc2: "Hats, kilts and towels", inc3: "Tea, lounge and shower", inc4: "BBQ area and gazebo" },
       pool: { name: "Swimming pool", desc: "A refreshing open-air pool in the kiwi garden with loungers — free with the sauna rental.", inc1: "Free with the sauna rental", inc2: "Loungers and chill zone by the water", inc3: "Perfect after the steam room", inc4: "Great on hot days" },
       cottage: { name: "Cottage per night", desc: "The whole venue for the night for a big group or celebration: sauna, pool, BBQ.", inc1: "Sauna + pool + grill", inc2: "Gazebo and dining area", inc3: "Up to 12 guests", inc4: "Great for birthdays and events" },
       extrasNote: "Extras: eucalyptus venik, towels and kilts — 5 GEL each."
@@ -300,7 +300,7 @@ window.PEPOS_I18N = {
       subtitle: "საუნა — საათობრივად, კოტეჯი — ღამით. აუზი უკვე შედის საუნის ფასში.",
       perHour: "/ საათი", perNight: "/ ღამე", includedBadge: "შედის", poolNote: "საუნის ფასში",
       upTo: "მდე", guests: "სტუმარი", included: "შედის:", book: "დაჯავშნა",
-      sauna: { name: "შეშის საუნა + აუზი", desc: "ორი რუსული საუნა საორთქლით, დასასვენებელი ოთახით და საშხაპით. აუზი — უფასოდ.", inc1: "აუზი შედის ფასში", inc2: "ქუდები, კილტები და პირსახოცები", inc3: "ჩაი, დასასვენებელი ოთახი, საშხაპე", inc4: "მანგალის ზონა და კარავი" },
+      sauna: { name: "შეშის საუნა + აუზი", desc: "რუსული შეშის აბანო „კივის ბაღში“ საორთქლით, დასასვენებელი ოთახით, საშხაპით და აუზით.", inc1: "აუზი შედის ფასში", inc2: "ქუდები, კილტები და პირსახოცები", inc3: "ჩაი, დასასვენებელი ოთახი, საშხაპე", inc4: "მანგალის ზონა და კარავი" },
       pool: { name: "აუზი", desc: "გამაგრილებელი ღია აუზი კივის ბაღში შეზლონგებით — უფასოდ საუნის ქირაობისას.", inc1: "უფასოდ საუნის ქირაობისას", inc2: "შეზლონგები და დასვენების ზონა წყალთან", inc3: "იდეალურია საორთქლის შემდეგ", inc4: "შესანიშნავი ცხელ დღეებში" },
       cottage: { name: "კოტეჯი ღამით", desc: "მთელი ტერიტორია ღამით დიდი კომპანიისთვის: საუნა, აუზი, მწვადი.", inc1: "საუნა + აუზი + მანგალი", inc2: "კარავი და სუფრის ზონა", inc3: "12 სტუმრამდე", inc4: "შესანიშნავი დაბადების დღისთვის" },
       extrasNote: "დამატებით: ევკალიპტის ცოცხი, პირსახოცები და კილტი — 5 GEL ცალი."
