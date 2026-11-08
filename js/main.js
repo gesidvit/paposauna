@@ -149,6 +149,22 @@
     if ((+el.hours.value || 1) < min) el.hours.value = min;
   }
 
+  // Блок «Дополнительно» скрывается для коттеджа
+  function toggleExtras() {
+    var el = getEl();
+    var field = $("#bk-extras-field");
+    if (!field || !el.object) return;
+    var hide = el.object.value === "cottage";
+    field.style.display = hide ? "none" : "";
+    if (hide) {
+      $$(".extra input", el.extras).forEach(function (i) {
+        if (i.checked) { i.checked = false; }
+        var lbl = i.closest(".extra");
+        if (lbl) lbl.classList.remove("is-on");
+      });
+    }
+  }
+
   function calcTotal() {
     var el = getEl();
     if (!el.object || !el.total) return 0;
@@ -235,8 +251,9 @@
       if (!el.date.value) el.date.value = el.date.min;
     }
     syncDuration(objectsById[el.object.value] || (CFG.booking.objects || [])[0]);
+    toggleExtras();
 
-    el.object.addEventListener("change", function () { syncDuration(objectsById[el.object.value]); clampGuests(); calcTotal(); });
+    el.object.addEventListener("change", function () { syncDuration(objectsById[el.object.value]); toggleExtras(); clampGuests(); calcTotal(); });
 
     // steppers
     $$(".stepper").forEach(function (st) {
@@ -261,7 +278,7 @@
     $$("[data-book-object]").forEach(function (b) {
       b.addEventListener("click", function () {
         var id = b.dataset.bookObject;
-        if (el.object) { el.object.value = id; syncDuration(objectsById[id]); clampGuests(); calcTotal(); }
+        if (el.object) { el.object.value = id; syncDuration(objectsById[id]); toggleExtras(); clampGuests(); calcTotal(); }
       });
     });
 
@@ -309,6 +326,7 @@
     buildExtras();
     applyServiceMeta();
     refreshGenericCTAs();
+    toggleExtras();
     calcTotal();
 
     // active lang button
