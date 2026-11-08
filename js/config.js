@@ -66,7 +66,7 @@ window.PEPOS_CONFIG = {
       { id: "venik",  price: 0,  perGuest: false },  // эвкалиптовый веник
       { id: "towel",  price: 0,  perGuest: false },  // доп. полотенце
       { id: "kilt",   price: 0,  perGuest: false },  // доп. килт
-      { id: "bbq",    price: 5,  perGuest: false }   // мангальная зона
+      { id: "bbq",    price: 0,  perGuest: false }   // мангальная зона
     ]
   },
 
