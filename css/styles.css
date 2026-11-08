@@ -440,6 +440,7 @@ a.contacts__value:hover{ color:var(--ember-2); }
   .booking__submit-row{ grid-template-columns:1fr; } /* кнопки Telegram и Позвонить на всю ширину */
   .extras{ grid-template-columns:1fr; }
   .hero__cta{ width:100%; } .hero__cta .btn{ flex:1; }
+  .hero__content{ padding-top:.5rem; }   /* плашка выше на мобильном */
   .footer__inner{ flex-direction:column; text-align:center; }
   .footer__bottom{ justify-content:center; text-align:center; }
   .gift__inner{ text-align:center; justify-content:center; }
