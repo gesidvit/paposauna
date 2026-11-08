@@ -26,7 +26,7 @@ window.PEPOS_I18N = {
     hero: {
       badge: "Частная дровяная баня в киви-саду · Кобулети",
       title: "Pepo’s Sauna",
-      subtitle: "Баня на дровах · Бассейн · Шашлык. Приватный отдых для компании до 6–8 человек в зелёном киви-саду.",
+      subtitle: "Баня на дровах · Бассейн · Шашлык. Приватный отдых для компании до 6 человек в зелёном киви-саду.",
       ctaBook: "Забронировать",
       ctaWhatsapp: "Написать в WhatsApp",
       f1: "Баня на дровах", f2: "Бассейн", f3: "Шашлык и мангал", f4: "Киви-сад"
@@ -147,7 +147,7 @@ window.PEPOS_I18N = {
     faq: {
       kicker: "Частые вопросы",
       title: "Вопросы и ответы",
-      q1: "Сколько человек вмещает баня?", a1: "Баня рассчитана на компанию до 6–8 человек. Для большой компании берите весь комплекс с бассейном и мангалом.",
+      q1: "Сколько человек вмещает баня?", a1: "Баня рассчитана на компанию до 6 человек. Для большой компании берите весь комплекс с бассейном и мангалом.",
       q2: "Что входит в стоимость аренды?", a2: "Шапочки, килты и полотенца для парной, чёрный или зелёный чай, комната отдыха, душевая, мангальная зона и беседка, шезлонги.",
       q3: "Можно ли приготовить шашлык?", a3: "Да! На территории есть мангальная зона и беседка. Мангал входит в стоимость, продукты и уголь привозите с собой или уточните у нас.",
       q4: "Нужно ли бронировать заранее?", a4: "Да, рекомендуем бронировать заранее — особенно на выходные и вечернее время. Напишите в WhatsApp или Telegram.",
@@ -180,7 +180,7 @@ window.PEPOS_I18N = {
     hero: {
       badge: "Private wood-fired sauna in a kiwi garden · Kobuleti",
       title: "Pepo’s Sauna",
-      subtitle: "Wood-fired sauna · Pool · BBQ. Private getaway for groups of up to 6–8 in a green kiwi garden.",
+      subtitle: "Wood-fired sauna · Pool · BBQ. Private getaway for groups of up to 6 in a green kiwi garden.",
       ctaBook: "Book now",
       ctaWhatsapp: "Message on WhatsApp",
       f1: "Wood-fired sauna", f2: "Swimming pool", f3: "BBQ & grill", f4: "Kiwi garden"
@@ -249,7 +249,7 @@ window.PEPOS_I18N = {
     gift: { kicker: "Gift certificate", title: "Gift a true steam escape", text: "A certificate for the sauna, pool or a group getaway — a great gift for any occasion.", cta: "Order a certificate" },
     faq: {
       kicker: "FAQ", title: "Questions & answers",
-      q1: "How many people fit in the sauna?", a1: "The sauna fits groups of up to 6–8. For a bigger group, take the whole venue with pool and grill.",
+      q1: "How many people fit in the sauna?", a1: "The sauna fits groups of up to 6. For a bigger group, take the whole venue with pool and grill.",
       q2: "What’s included in the rental?", a2: "Hats, kilts and towels for the steam room, black or green tea, a lounge, shower, BBQ area and gazebo, loungers.",
       q3: "Can we make BBQ?", a3: "Yes! There’s a grill area and gazebo on site. The grill is included; bring your own food and charcoal or ask us.",
       q4: "Do we need to book in advance?", a4: "Yes, we recommend booking ahead — especially for weekends and evenings. Message us on WhatsApp or Telegram.",
@@ -269,7 +269,7 @@ window.PEPOS_I18N = {
     hero: {
       badge: "პირადი შეშის საუნა კივის ბაღში · ქობულეთი",
       title: "Pepo’s Sauna",
-      subtitle: "შეშის საუნა · აუზი · მწვადი. პირადი დასვენება 6–8 კაციან კომპანიისთვის მწვანე კივის ბაღში.",
+      subtitle: "შეშის საუნა · აუზი · მწვადი. პირადი დასვენება 6 კაციან კომპანიისთვის მწვანე კივის ბაღში.",
       ctaBook: "დაჯავშნა",
       ctaWhatsapp: "მოგვწერეთ WhatsApp-ზე",
       f1: "შეშის საუნა", f2: "აუზი", f3: "მწვადი და მანგალი", f4: "კივის ბაღი"
@@ -338,7 +338,7 @@ window.PEPOS_I18N = {
     gift: { kicker: "სასაჩუქრე სერტიფიკატი", title: "აჩუქეთ ნამდვილი საუნის დასვენება", text: "სერტიფიკატი საუნაზე, აუზზე ან კომპანიით დასვენებაზე — შესანიშნავი საჩუქარი ნებისმიერ დღესასწაულზე.", cta: "სერტიფიკატის შეკვეთა" },
     faq: {
       kicker: "ხშირი კითხვები", title: "კითხვა-პასუხი",
-      q1: "რამდენი ადამიანი ეტევა საუნაში?", a1: "საუნა გათვლილია 6–8 კაციან კომპანიაზე. დიდი კომპანიისთვის აიღეთ მთელი კომპლექსი აუზითა და მანგალით.",
+      q1: "რამდენი ადამიანი ეტევა საუნაში?", a1: "საუნა გათვლილია 6 კაციან კომპანიაზე. დიდი კომპანიისთვის აიღეთ მთელი კომპლექსი აუზითა და მანგალით.",
       q2: "რა შედის ქირაობის ფასში?", a2: "ქუდები, კილტები და პირსახოცები, შავი ან მწვანე ჩაი, დასასვენებელი ოთახი, საშხაპე, მანგალის ზონა და კარავი, შეზლონგები.",
       q3: "შეიძლება მწვადის მომზადება?", a3: "დიახ! ტერიტორიაზეა მანგალის ზონა და კარავი. მანგალი შედის ფასში; პროდუქტები და ნახშირი თან მოიტანეთ ან დააზუსტეთ ჩვენთან.",
       q4: "საჭიროა წინასწარ დაჯავშნა?", a4: "დიახ, გირჩევთ წინასწარ დაჯავშნას — განსაკუთრებით შაბათ-კვირას და საღამოს. მოგვწერეთ WhatsApp-ზე ან Telegram-ზე.",
