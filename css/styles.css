@@ -208,7 +208,7 @@ ul{ list-style:none; padding:0; }
 
 /* ---------- Services ---------- */
 .services{ background:var(--bg); }
-.services__grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:1.4rem; align-items:start; }
+.services__grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1.4rem; align-items:start; max-width:860px; margin-inline:auto; }
 .card{ background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-lg); overflow:hidden; position:relative; transition:transform .25s ease, box-shadow .25s ease, border-color .25s; }
 .card:hover{ transform:translateY(-6px); box-shadow:var(--shadow); border-color:var(--line-strong); }
 .card--featured{ border-color:var(--ember); box-shadow:0 0 0 1px var(--ember), 0 24px 60px -30px rgba(232,130,46,.6); }
