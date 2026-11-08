@@ -208,8 +208,8 @@ ul{ list-style:none; padding:0; }
 
 /* ---------- Services ---------- */
 .services{ background:var(--bg); }
-.services__grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1.4rem; align-items:start; max-width:860px; margin-inline:auto; }
-.card{ background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-lg); overflow:hidden; position:relative; transition:transform .25s ease, box-shadow .25s ease, border-color .25s; }
+.services__grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1.4rem; align-items:stretch; max-width:860px; margin-inline:auto; }
+.card{ background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-lg); overflow:hidden; position:relative; display:flex; flex-direction:column; transition:transform .25s ease, box-shadow .25s ease, border-color .25s; }
 .card:hover{ transform:translateY(-6px); border-color:var(--ember); box-shadow:0 0 0 1px var(--ember), 0 24px 60px -30px rgba(232,130,46,.6); }
 .card--featured{ border-color:var(--line); box-shadow:none; }
 .card__ribbon{ position:absolute; z-index:3; top:14px; right:14px; width:34px; height:34px; display:grid; place-items:center; border-radius:50%;
@@ -217,7 +217,7 @@ ul{ list-style:none; padding:0; }
 .card__media{ aspect-ratio:16/11; overflow:hidden; }
 .card__media img{ width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
 .card:hover .card__media img{ transform:scale(1.07); }
-.card__body{ padding:1.5rem; }
+.card__body{ padding:1.5rem; display:flex; flex-direction:column; flex:1; }
 .card__title{ font-family:var(--font-display); font-weight:600; font-size:1.5rem; }
 .card__price{ display:flex; align-items:baseline; gap:.3rem; margin:.5rem 0 .2rem; }
 .card__price-val{ font-size:1.8rem; font-weight:800; color:var(--ember-2); }
@@ -232,7 +232,9 @@ ul{ list-style:none; padding:0; }
 .card__inc-title{ font-weight:700; font-size:.82rem; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:.6rem; }
 .card__inc{ display:grid; gap:.5rem; margin-bottom:1.4rem; }
 .card__inc li{ position:relative; padding-left:1.5rem; color:var(--text-dim); font-size:.95rem; }
+.card__inc li:empty{ display:none; }
 .card__inc li::before{ content:""; position:absolute; left:0; top:.55em; width:8px; height:8px; border-radius:50%; background:var(--kiwi); }
+.card__body .btn--block{ margin-top:auto; }
 .services__note{ text-align:center; margin-top:1.8rem; color:var(--muted); font-size:.95rem; }
 
 /* ---------- Booking ---------- */
