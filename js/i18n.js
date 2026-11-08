@@ -160,6 +160,7 @@ window.PEPOS_I18N = {
       title: "Приезжайте в гости",
       addressLabel: "Адрес",
       phoneLabel: "Телефон",
+      telegramLabel: "Telegram",
       hoursLabel: "Часы работы",
       route: "Построить маршрут",
       write: "Напишите нам",
@@ -257,7 +258,7 @@ window.PEPOS_I18N = {
       q5: "Where are you located?", a5: "Kobuleti, Agmashenebeli st. 738, in a kiwi garden. Free parking available.",
       q6: "What payment methods?", a6: "Payment on site. Check payment details and booking deposit with the admin."
     },
-    contacts: { kicker: "Contacts", title: "Come and visit", addressLabel: "Address", phoneLabel: "Phone", hoursLabel: "Opening hours", route: "Get directions", write: "Message us", follow: "Follow us" },
+    contacts: { kicker: "Contacts", title: "Come and visit", addressLabel: "Address", phoneLabel: "Phone", telegramLabel: "Telegram", hoursLabel: "Opening hours", route: "Get directions", write: "Message us", follow: "Follow us" },
     footer: { tagline: "Wood-fired sauna · Pool · BBQ in a kiwi garden", rights: "All rights reserved.", made: "Private sauna retreat in Kobuleti" },
     float: { book: "Book", call: "Call" }
   },
@@ -346,7 +347,7 @@ window.PEPOS_I18N = {
       q5: "სად მდებარეობთ?", a5: "ქობულეთი, აღმაშენებლის ქ. 738, კივის ბაღში. არის უფასო პარკინგი.",
       q6: "გადახდის რა მეთოდებია?", a6: "გადახდა ადგილზე. გადახდის დეტალები და დეპოზიტი დააზუსტეთ ადმინისტრატორთან."
     },
-    contacts: { kicker: "კონტაქტი", title: "მობრძანდით სტუმრად", addressLabel: "მისამართი", phoneLabel: "ტელეფონი", hoursLabel: "სამუშაო საათები", route: "მარშრუტის აგება", write: "მოგვწერეთ", follow: "გამოგვყევით" },
+    contacts: { kicker: "კონტაქტი", title: "მობრძანდით სტუმრად", addressLabel: "მისამართი", phoneLabel: "ტელეფონი", telegramLabel: "Telegram", hoursLabel: "სამუშაო საათები", route: "მარშრუტის აგება", write: "მოგვწერეთ", follow: "გამოგვყევით" },
     footer: { tagline: "შეშის საუნა · აუზი · მწვადი კივის ბაღში", rights: "ყველა უფლება დაცულია.", made: "პირადი საუნის კომპლექსი ქობულეთში" },
     float: { book: "ჯავშანი", call: "დარეკვა" }
   }

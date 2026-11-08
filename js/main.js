@@ -54,6 +54,12 @@
       a.href = telHref(c.phoneSecondary); a.textContent = prettyPhone(c.phoneSecondary);
     });
     $$("[data-hours]").forEach(function (e) { e.textContent = c.hours || ""; });
+    // telegram username (контакт)
+    $$("[data-telegram-user]").forEach(function (a) {
+      var u = String(c.telegram || "").replace(/^@/, "");
+      a.textContent = u ? "@" + u : "";
+      a.parentNode && a.parentNode.parentNode && (a.parentNode.parentNode.style.display = u ? "" : "none");
+    });
     // social
     $$("[data-social-ig]").forEach(function (a) { a.href = c.social.instagram; });
     $$("[data-social-tt]").forEach(function (a) { a.href = c.social.tiktok; });
